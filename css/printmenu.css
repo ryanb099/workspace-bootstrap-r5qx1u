@@ -6,12 +6,12 @@
 */
 
 body{
-    font-size: 50%;
+    font-size: 70%;
     font-style: italic;
 }
 
 body:after{
-    content:'created by yz';
+    content:'created by rb';
 }
 
 .links{
