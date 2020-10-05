@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Forms</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- white spacing -->
+	<style type="text/css">
+		body {
+			padding: 5%;
+		}
+
+		legend {
+			width: inherit;
+			padding: 0 5px;
+			font-size: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<form  method="get" >
+  <div class="form-group">
+
+		<label>Name: <input type="text" name="name" class="form-control" size="30" maxlength="100" required></label><br />
+		<label>Email: <input type="email" name="email" class="form-control"  size="30" maxlength="100" placeholder="name@domain.com"
+				required></label><br />
+
+
+		<p>
+			<label for="hear-about">How did you hear about us?</label>
+			<select name="referrer" id="hear-about">
+				<option value="google">Google</option>
+				<option value="friend">Friend</option>
+				<option value="advert">Advert</option>
+				<option value="other">Other</option>
+			</select>
+		</p>
+		<p>
+			Would you visit again?<br />
+			<label><input type="radio" class="form-control"  name="rating" value="yes" /> Yes</label>
+			<label><input type="radio" class="form-control"  name="rating" value="no" /> No</label>
+			<label><input type="radio" class="form-control"  name="rating" value="maybe" /> Maybe</label>
+		</p>
+		<p>
+			<label for="comments">Comments:</label><br />
+			<textarea rows="4" cols="40" id="comments" class="form-control" ></textarea>
+		</p>
+		<label><input type="checkbox" name="subscribe" checked="checked" /> Sign me up for email updates</label><br />
+
+
+
+		<input type="submit" value="Submit review" />
+</div>
+	</form>
+
+
+	<!--- bootstrap required js -->
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>

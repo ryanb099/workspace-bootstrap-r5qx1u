@@ -1,0 +1,56 @@
+/* 
+    Document   : dropdown
+    Author     : Yilian Zhang
+    Description:
+        Hyperlink in an unordered list
+*/
+body {
+			padding: 5%;
+}
+ul{
+    list-style-type: none; 
+    color:rgb(2, 9, 17); 
+}
+
+ul>li:hover ul{
+  display: block;
+  visibility: visible;
+}
+
+ul>li{
+    display: inline-table;
+    padding-right:20px;
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(2, 9, 17);  
+}
+ul ul>li{
+  padding: 2px 0px 2px 5px;
+}
+ul>li ul{
+    visibility: hidden;
+    padding: 5px 2px 5px 2px;
+    background-color: hsl(202, 36%, 96%) ; 
+    border: hsla(212,100%,34%,0.8)  1px solid;
+    border-radius: 10px;
+}
+ul * li{
+    display: block;
+       
+}
+ul * li:hove{
+  background: repeating-linear-gradient( to right, hsla(352,89%,81%,0.6),hsla(212,100%,34%,0.5) 10px);
+}
+
+#nav{
+  position: fixed;
+  left: 0px;
+  top:0px;
+  right: 0px;
+  z-index: 2;
+}
+
+

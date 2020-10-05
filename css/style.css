@@ -1,0 +1,18 @@
+	body {
+		padding: 0% 5% 0% 5%;
+	}
+
+  .links{
+    margin-top: 50px;
+    position: relative;
+    top: 200px;
+    z-index: 1;
+  }
+  .links a{
+      display: block;
+      text-decoration: none;
+      width: 200px;
+      border-bottom: 1px hsla(200, 50%, 60%, 0.7) solid;
+      padding: 1%;
+      color:rgb(2, 9, 17);      
+  }

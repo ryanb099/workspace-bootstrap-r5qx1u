@@ -1,0 +1,19 @@
+/* 
+    Document   : printmenu
+    Author     : Yilian Zhang
+    Description:
+        Style sheet for print menu
+*/
+
+body{
+    font-size: 50%;
+    font-style: italic;
+}
+
+body:after{
+    content:'created by yz';
+}
+
+.links{
+  display: none;
+}
