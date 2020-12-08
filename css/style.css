@@ -64,6 +64,16 @@ body {
   position: relative;
   top: 1000px;
 }
+#social_media {
+  float: left;
+  left: 595;
+  position: relative;
+  top: 1020px;
+}
+#social {
+  width: 30%;
+  height: 400px;
+}
 div navbar {
   position: relative;
   margin: 0 auto;
@@ -103,7 +113,31 @@ div.footer {
   right: 0;
   left: 400;
   top: 1500px;
-  border-radius: 8px;
+}
+div.bottom {
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: 2050px;
+  height: 250px;
+  left: 0;
+  width: 1370px;
+}
+#copyright {
+  position: absolute;
+  bottom: 15px;
+  text-align: center;
+  width: 100%;
+}
+#left {
+  position: absolute;
+  left: 50px;
+  text-align: left;
+}
+#right {
+  position: absolute;
+  right: 50px;
+  text-align: lef
 }
 #foot {
   text-align: center;
