@@ -2,44 +2,80 @@
   margin-top: 150px;
   text-align: center;
 }
+#button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 #antiques {
   border-top: 4px solid lightblue;
 }
+#ant_2 {
+  position: absolute;
+  margin-right: 375px;
+  margin-left: 175px;
+  top: 760px;
+  width: 200px;
+}
+#ant_3 {
+  position: absolute;
+  margin-right: 475px;
+  margin-left: 375px;
+  top: 760px;
+  width: 200px;
+}
+
 #ant_table1 {
   height: 250px;
   width: 150px;
+  padding-bottom: 10px;
 }
 #ant_crate1 {
   height: 250px;
   width: 150px;
+  padding-bottom: 10px;
 }
 #exec1 {
   height: 250px;
   width: 150px;
+  padding-bottom: 10px;
 }
 #exec {
   height: 150px;
   width: 100px;
+  padding-bottom: 10px;
 }
 #circle {
   height: 150px;
   width: 100px;
+  padding-bottom: 10px;
 }
 #antique1 {
   height: 150px;
   width: 100px;
+  padding-bottom: 10px;
 }
 #sew {
   height: 150px;
   width: 100px;
+  padding-bottom: 10px;
 }
 #big_cabinet {
   height: 150px;
   width: 100px;
+  padding-bottom: 10px;
 }
 #double {
   height: 150px;
   width: 100px;
+  padding-bottom: 10px;
 }
 
 * {

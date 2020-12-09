@@ -115,11 +115,12 @@ function showSlides(n) {
 		</script>
 		<script>
 			$(function(){
+        var total= $("#total").html();
           $('.button_a1').click(function() {
-              $("#total").append(+145);
+              $("#total").html("<br> Antique Circle: $145")
       });
       $('.button_a2').click(function() {
-              $("#total").append(+200);
+              $("#total").html("<br> Antique Dresser: $200")
       });
       $('.button_a3').click(function() {
               $("#total").append(+375);
@@ -131,7 +132,7 @@ function showSlides(n) {
               $("#total").append(+250);
       });
       $('.button_n3').click(function() {
-              $("#total").append(+15);
+              $("#total").append(+275);
       });
     });
 		</script>
@@ -140,17 +141,17 @@ function showSlides(n) {
 			<div id="ant_1">
 				<img src="https://cdn.jsdelivr.net/gh/ryanb099/workspace-bootstrap-r5qx1u@master/img/circle_cabinet.jpeg" id="circle">
 				<br/>
-        $145<input type="button" class="button_a1" value="Buy">
+				<input type="button" id="button" class="button_a1" value="$145">
         </div>
 				<div id="ant_2">
 					<img src="https://cdn.jsdelivr.net/gh/ryanb099/workspace-bootstrap-r5qx1u@master/img/antique1.jpeg" id="antique1">
 					<br/>
-        $200<input type="button" class="button_a2" value="Buy">but
+					<input type="button" id="button" class="button_a2" value="$200">
         </div>
 					<div id="ant_3">
 						<img src="https://cdn.jsdelivr.net/gh/ryanb099/workspace-bootstrap-r5qx1u@master/img/sew.JPG" id="sew">
 						<br/>
-        $375<input type="button" class="button_a3" value="Buy">
+						<input type="button" id="button" class="button_a3" value="$375">
         </div>
 					</div>
 					<div id="other">
@@ -158,26 +159,19 @@ function showSlides(n) {
 						<div id="normal_1">
 							<img src="https://cdn.jsdelivr.net/gh/ryanb099/workspace-bootstrap-r5qx1u@master/img/big_cabinet.jpeg" id="big_cabinet">
 							<br/>
-        $345<input type="button" class="button_n1" value="Buy">
+							<input type="button" id="button" class="button_n1" value="$345">
         </div>
 							<div id="normal_2">
 								<img src="https://cdn.jsdelivr.net/gh/ryanb099/workspace-bootstrap-r5qx1u@master/img/double_table.jpeg" id="double">
 								<br/>
-        $250<input type="button" class="button_n2" value="Buy">
+								<input type="button" id="button" class="button_n2" value="$250">
         </div>
 								<div id="normal_3">
 									<img src="https://cdn.jsdelivr.net/gh/ryanb099/workspace-bootstrap-r5qx1u@master/img/exec.JPG" id="exec">
 									<br/>
-        $275<input type="button" class="button_n3" value="Buy">
+									<input type="button" id="button" class="button_n3" value="$275">
         </div>
 								</div>
-
-
-
-
-
-								No: Crate, Round, exec, box, flower, mirror
-
 
 
 							</div>
