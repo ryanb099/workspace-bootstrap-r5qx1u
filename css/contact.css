@@ -46,3 +46,9 @@ h2 {
   left: 55%;
   top: 900px;
 }
+#img_text1 {
+  position: absolute;
+  left: 50%;
+  top: 800px;
+  text-align: center;
+}
