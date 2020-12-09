@@ -14,7 +14,7 @@ firebase.initializeApp(firebaseConfig);
 // save the data
 $("#information").submit(function(e) {
   e.preventDefault();
-  var inputdata = $("information").serializeArray();
+  var inputdata = $("").serializeArray();
   console.log(inputdata);
   var inputJson = {};
   for (var i = 0; i < inputdata.length; i++) {
