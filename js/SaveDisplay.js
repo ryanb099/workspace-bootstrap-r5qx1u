@@ -12,7 +12,7 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 // save the data
-$(".information").submit(function(e) {
+$("#information").submit(function(e) {
   e.preventDefault();
   var inputdata = $("information").serializeArray();
   console.log(inputdata);
