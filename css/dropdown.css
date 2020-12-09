@@ -23,7 +23,7 @@ ul > li {
   width: 150px;
 }
 
-a {
+.boxhead a {
   text-decoration: none;
   color: rgb(2, 9, 17);
 }
