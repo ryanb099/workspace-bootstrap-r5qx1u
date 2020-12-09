@@ -61,13 +61,13 @@ div.nav {
   position: relative;
   top: 1033px;
 }
-.boxhead a {
+#p1 a {
   text-decoration: none;
   color: black;
 }
 #social {
   width: 40%;
-  height: 376px;
+  height: 350px;
 }
 div.pics1 {
   position: absolute;
@@ -101,6 +101,7 @@ div.footer {
   right: 0;
   left: 400;
   top: 1500px;
+  height: 350px;
 }
 div.bottom {
   position: absolute;

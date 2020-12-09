@@ -221,5 +221,5 @@ img {
   }
 }
 img:hover:not(#ant_table1):not(#ant_crate1):not(#exec1):not(.logo) {
-  transform: scale(3.5);
+  transform: scale(.5);
 }

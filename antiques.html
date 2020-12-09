@@ -114,24 +114,32 @@ function showSlides(n) {
 		</script>
 		<script>
 			$(function(){
-        var total= $("#total").html();
-          $('.button_a1').click(function() {
-              $("#total").html("<br> Antique Circle: $145")
+        var paragraph = document.getElementById("total");
+        
+      $('.button_a1').click(function() {
+        var text1= document.createTextNode("Antique Cabinet: $145|");
+        paragraph.appendChild(text1);
+             
       });
       $('.button_a2').click(function() {
-              $("#total").html("<br> Antique Dresser: $200")
+              var text2= document.createTextNode("Antique Dresser: $200|");
+              paragraph.appendChild(text2);
       });
       $('.button_a3').click(function() {
-              $("#total").append(+375);
+              var text3= document.createTextNode("Antique Sewing Machine: $375|");
+              paragraph.appendChild(text3);
       });
       $('.button_n1').click(function() {
-              $("#total").append(+345);
+              var text4= document.createTextNode("Large- Oak Cabinet: $345|");
+              paragraph.appendChild(text4);
       });
       $('.button_n2').click(function() {
-              $("#total").append(+250);
+              var text5= document.createTextNode("2 Tables- Oak Wood: $250|");
+              paragraph.appendChild(text5);
       });
       $('.button_n3').click(function() {
-              $("#total").append(+275);
+              var text6= document.createTextNode("Executive Desk- Oak Wood: $200|");
+              paragraph.appendChild(text6);
       });
     });
 		</script>
@@ -175,21 +183,21 @@ function showSlides(n) {
 							</div>
 						</div>
 						<div id="total_price">
-							<p id="total"> Order Ticket:
-								<br/> Please take your ticket with you when receiving your items!</p>
+							<p id="total"> Order Ticket: </p>
+							<br/> Please take your ticket with you when receiving your items!
 						</div>
 
-					</div>
+						</div>
 
 
 
 
 
-					<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
-					<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-firestore.js"></script>
-					<!-- TODO: Add SDKs for Firebase products that you want to use
+						<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+						<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-firestore.js"></script>
+						<!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-					<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
+						<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
 
 
 
