@@ -3,7 +3,7 @@
   text-align: center;
 }
 #button {
-  background-color: #4caf50;
+  background-color: green;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -19,11 +19,13 @@
   border-bottom: 4px solid lightblue;
   padding-bottom: 20px;
   padding-top: 20px;
+  padding-left: 20px;
 }
 #other {
   border-bottom: 4px solid lightblue;
   padding-bottom: 20px;
   padding-top: 20px;
+  padding-left: 20px;
 }
 #ant_2 {
   position: absolute;
@@ -43,12 +45,10 @@
 #ant_table1 {
   height: 250px;
   width: 150px;
-  // padding-bottom: 10px;
 }
 #ant_crate1 {
   height: 250px;
   width: 150px;
-  //padding-bottom: 10px;
 }
 #normal_2 {
   position: absolute;
@@ -67,7 +67,6 @@
 #exec1 {
   height: 250px;
   width: 150px;
-  // padding-bottom: 10px;
 }
 #exec {
   height: 150px;
@@ -103,7 +102,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: Verdana, sans-serif;
   margin: 0;
