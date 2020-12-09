@@ -2,6 +2,9 @@
   margin-top: 150px;
   text-align: center;
 }
+#antiques {
+  border-top: 4px solid lightblue;
+}
 #ant_table1 {
   height: 250px;
   width: 150px;
@@ -34,7 +37,7 @@
   height: 150px;
   width: 100px;
 }
-#doub {
+#double {
   height: 150px;
   width: 100px;
 }

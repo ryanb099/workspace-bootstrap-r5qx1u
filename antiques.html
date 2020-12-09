@@ -113,6 +113,28 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 		</script>
+		<script>
+			$(function(){
+          $('.button_a1').click(function() {
+              $("#total").append(+145);
+      });
+      $('.button_a2').click(function() {
+              $("#total").append(+200);
+      });
+      $('.button_a3').click(function() {
+              $("#total").append(+375);
+      });
+      $('.button_n1').click(function() {
+              $("#total").append(+345);
+      });
+      $('.button_n2').click(function() {
+              $("#total").append(+250);
+      });
+      $('.button_n3').click(function() {
+              $("#total").append(+15);
+      });
+    });
+		</script>
 		<div id="antiques">
 			<h2> Antiques </h2> <br/>
 			<div id="ant_1">
@@ -121,9 +143,9 @@ function showSlides(n) {
         $145<input type="button" class="button_a1" value="Buy">
         </div>
 				<div id="ant_2">
-					<img src="https://cdn.jsdelivr.net/gh/ryanb099/workspace-bootstrap-r5qx1u@master/img/antique1.jpeg" id="anitque1">
+					<img src="https://cdn.jsdelivr.net/gh/ryanb099/workspace-bootstrap-r5qx1u@master/img/antique1.jpeg" id="antique1">
 					<br/>
-        $200<input type="button" class="button_a2" value="Buy">
+        $200<input type="button" class="button_a2" value="Buy">but
         </div>
 					<div id="ant_3">
 						<img src="https://cdn.jsdelivr.net/gh/ryanb099/workspace-bootstrap-r5qx1u@master/img/sew.JPG" id="sew">
@@ -160,6 +182,10 @@ function showSlides(n) {
 
 							</div>
 						</div>
+						<div id="total_price">
+							<p id="total"> 0 </p>
+						</div>
+
 					</div>
 
 
