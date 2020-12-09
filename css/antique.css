@@ -14,6 +14,31 @@
   height: 250px;
   width: 150px;
 }
+#exec {
+  height: 150px;
+  width: 100px;
+}
+#circle {
+  height: 150px;
+  width: 100px;
+}
+#antique1 {
+  height: 150px;
+  width: 100px;
+}
+#sew {
+  height: 150px;
+  width: 100px;
+}
+#big_cabinet {
+  height: 150px;
+  width: 100px;
+}
+#doub {
+  height: 150px;
+  width: 100px;
+}
+
 * {
   box-sizing: border-box;
 }
