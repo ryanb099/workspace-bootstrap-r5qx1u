@@ -12,9 +12,9 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 // save the data
-$(".sampleSurvey input[type='submit']").click(function(e) {
+$(".information").submit(function(e) {
   e.preventDefault();
-  var inputdata = $("form").serializeArray();
+  var inputdata = $("information").serializeArray();
   console.log(inputdata);
   var inputJson = {};
   for (var i = 0; i < inputdata.length; i++) {
@@ -27,6 +27,6 @@ $(".sampleSurvey input[type='submit']").click(function(e) {
 
   firebase
     .firestore()
-    .collection("ContactMe")
+    .collection("final")
     .add(inputJson);
 });
