@@ -4,38 +4,32 @@ body {
 div.nav {
   position: relative;
   height: 400px;
-  border-: 4px lightblue;
+  border-bottom: 4px lightblue;
+  z-index: 0;
 }
-.links {
-  margin-top: 50px;
-  position: relative;
-  top: 200px;
-  z-index: 1;
-}
+
 #email {
   border-bottom: 1px solid lightblue;
   font-weight: bold;
+  z-index: 2;
 }
 #contact {
   border: 2px solid rgb(92, 94, 94);
   background-color: grey;
   color: white;
   border-radius: 2px;
-}
-.links a {
-  display: block;
-  text-decoration: none;
-  width: 200px;
-  border-bottom: 1px hsla(200, 50%, 60%, 0.7) solid;
-  padding: 1%;
-  color: rgb(2, 9, 17);
+  z-index: 2;
 }
 .logo {
-  height: 170px;
-  width: 220px;
+  height: 270px;
+  width: 320px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+  z-index: 0;
 }
 .mirror {
   height: 400px;
@@ -45,6 +39,7 @@ div.nav {
   float: right;
   border-radius: 25%;
   border: 2.5px solid lightblue;
+  z-index: 2;
 }
 .house_flower {
   height: 400px;
@@ -52,35 +47,33 @@ div.nav {
   display: block;
   border-radius: 25%;
   border: 2.5px solid lightblue;
+  z-index: 2;
 }
 #img2 {
   float: left;
   left: 800;
   position: relative;
   top: 400px;
+  z-index: 2;
 }
 #columbia1 {
   float: left;
   right: 160;
   position: relative;
   top: 1000px;
+  z-index: 2;
 }
 #social_media {
   float: left;
-  left: 595;
+  left: 603;
   position: relative;
-  top: 1020px;
+  top: 103px;
+  z-index: 2;
 }
 #social {
-  width: 30%;
-  height: 400px;
-}
-div navbar {
-  position: relative;
-  margin: 0 auto;
-  display: in-line block;
-  text-align: left;
-  width: 45%;
+  width: 40%;
+  height: 376px;
+  z-index: 2;
 }
 div.pics1 {
   position: absolute;
@@ -93,6 +86,7 @@ div.pics1 {
   border-left: 4px solid lightblue;
   padding: 50px;
   border-radius: 75px;
+  z-index: 2;
 }
 div.pics2 {
   position: absolute;
@@ -105,6 +99,7 @@ div.pics2 {
   border-right: 4px solid lightblue;
   padding: 50px;
   border-radius: 75px;
+  z-index: 2;
 }
 div.footer {
   position: absolute;
@@ -114,6 +109,7 @@ div.footer {
   right: 0;
   left: 400;
   top: 1500px;
+  z-index: 2;
 }
 div.bottom {
   position: absolute;
@@ -123,35 +119,42 @@ div.bottom {
   height: 250px;
   left: 0;
   width: 1370px;
+  z-index: 2;
 }
 #copyright {
   position: absolute;
   bottom: 15px;
   text-align: center;
   width: 100%;
+  z-index: 2;
 }
 #left {
   position: absolute;
   left: 50px;
   text-align: left;
+  z-index: 2;
 }
 #right {
   position: absolute;
   right: 50px;
   text-align: left;
+  z-index: 2;
 }
 #foot {
   text-align: center;
+  z-index: 2;
 }
 li {
   font-size: 1.55882em;
   font-family: Agency FB;
   display: in-line block;
+  z-index: 0;
 }
 ul {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+  z-index: 0;
 }
 a:hover {
   color: grey;
