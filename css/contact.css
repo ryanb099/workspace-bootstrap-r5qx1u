@@ -1,9 +1,10 @@
-.swamp {
-  height: 450px;
-  width: 820px;
+.box {
+  width: 300px;
+  height: 300px;
+  margin-top: 280px;
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 250px;
   border-radius: 4px;
   filter: drop-shadow(8px 8px 6px lightgrey);
 }
@@ -20,17 +21,17 @@ h2 {
   margin-top: 180px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 25%;
+  width: 30%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: black;
   font-size: 20px;
   font-family: cambria;
-  mix-blend-mode: difference;
 }
 .pic {
-  margin-top: 200px;
+  margin-top: 250px;
   margin-bottom: 15px;
-  madding-bottom:26px;
+ padding-bottom: 60px;
   text-align: center;
   border-bottom: solid 9.5px lightblue;
 }
